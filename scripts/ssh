@@ -1,0 +1,6 @@
+sudo raspi-config
+sudo systemctl
+sudo systemctl enable ssh
+sudo systemctl start ssh
+ip
+ip address

@@ -1,0 +1,6 @@
+#sudo ntpd 
+#sudo ntpdate
+#sudo ntpd update
+#systemctl poweroff -i
+#tox-quickstart 
+#tox
