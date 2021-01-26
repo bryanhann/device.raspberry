@@ -1,0 +1,9 @@
+cat <<HERE
+At the desktop, click
+    PI | Preferences | Screen Configuration
+This opens the screen configuration window. In this window click
+    Configure|Screens|Virtual1|Resolution|1680x1050
+then
+    Configure|Apply
+HERE
+
