@@ -3,28 +3,33 @@ sudo apt-get upgrade
 sudo dpkg --configure -a
 sudo apt --fix-broken  install
 
+sudo apt-get install -y fonts-ipafont
+sudo apt-get install -y xfonts-intl-japanese
+sudo apt-get install -y xfonts-intl-japanese-big
+
 sudo apt install python2.5
-sudo apt install python2.6
 sudo apt install python2.7
-sudo apt install python3.0
-sudo apt install python3.1
-sudo apt install python3.2
 sudo apt install python3.3
 sudo apt install python3.4
 sudo apt install python3.5
 sudo apt install python3.6
 sudo apt install python3.7
-sudo apt install python3.8
-sudo apt install python3.9
+
 sudo apt install tox
 sudo apt install pipenv
-sudo apt-get install -y fonts-ipafont
-sudo apt-get install -y ttf-vlgothic
-sudo apt-get install -y ttf-kochi-gothic
-sudo apt-get install -y ttf-mincho
-sudo apt-get install -y ttf-watanabe-mincho
-sudo apt-get install -y ttf-wadalab-gothic
-sudo apt-get install -y xfonts-intl-japanese
-sudo apt-get install -y xfonts-intl-japanese-big
-sudo apt-get install -y xfonts-kabame
+
+
+sudo apt install python3.8
+sudo apt install python3.9
+
+#sudo apt install python2.6
+#sudo apt install python3.0
+#sudo apt install python3.1
+#sudo apt install python3.2
+#sudo apt-get install -y ttf-vlgothic
+#sudo apt-get install -y ttf-kochi-gothic
+#sudo apt-get install -y ttf-mincho
+#sudo apt-get install -y ttf-watanabe-mincho
+#sudo apt-get install -y ttf-wadalab-gothic
+#sudo apt-get install -y xfonts-kabame
 
